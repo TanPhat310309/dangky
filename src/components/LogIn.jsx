@@ -6,7 +6,7 @@ const LogIn = ({ onSwitchTo }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const [errors, setErrors] = useState({}); // State lưu lỗi
+  const [errors, setErrors] = useState({}); 
 
   const handleLogin = (e) => {
     e.preventDefault();

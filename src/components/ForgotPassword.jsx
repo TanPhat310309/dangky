@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaRegKeyboard, FaChevronLeft } from 'react-icons/fa';
-import './ForgotPassword.css'; // Nhớ đổi tên class bọc ngoài thành .forgot-wrapper
+import './ForgotPassword.css';
 
 const ForgotPassword = ({ onSwitchTo }) => {
   const [contactInfo, setContactInfo] = useState('');

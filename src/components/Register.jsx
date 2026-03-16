@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaKey, FaEye, FaEyeSlash, FaRegKeyboard, FaUserCircle, FaCalendarAlt } from 'react-icons/fa';
-import './Register.css'; // Nhớ đổi tên class bên file CSS này cho khỏi trùng nha!
+import './Register.css';
 
 const Register = ({ onSwitchTo }) => {
   const [fullName, setFullName] = useState('');
